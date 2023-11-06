@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube : MonoBehaviour
+public class Mover: MonoBehaviour
 {
     [SerializeField] private float _xSpeed;
     [SerializeField] private float _ySpeed;
@@ -10,6 +10,6 @@ public class Cube : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(_xSpeed * Time.deltaTime, _ySpeed * Time.deltaTime, _zSpeed * Time.deltaTime);
+        transform.Translate(_xSpeed * Time.deltaTime, _ySpeed * Time.deltaTime, _zSpeed * Time.deltaTime);
     }
 }

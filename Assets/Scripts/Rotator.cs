@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] private float _xSpeed;
     [SerializeField] private float _ySpeed;
@@ -10,6 +10,6 @@ public class Ball : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(_xSpeed * Time.deltaTime, _ySpeed * Time.deltaTime, _zSpeed * Time.deltaTime);
+        transform.Rotate(_xSpeed * Time.deltaTime, _ySpeed * Time.deltaTime, _zSpeed * Time.deltaTime);
     }
 }
