@@ -10,8 +10,7 @@ public class Scaler : MonoBehaviour
 
     private void Update()
     {
-        float _scalePerFrame = _scaleSpeed * Time.deltaTime;
-        transform.localScale += new Vector3(_scalePerFrame, _scalePerFrame, _scalePerFrame);
+        transform.localScale += Vector3.one * _scaleSpeed * Time.deltaTime;
 
         if (transform.localScale.x >= _maxScale || transform.localScale.x <= _minScale)
             _scaleSpeed *= -1;
