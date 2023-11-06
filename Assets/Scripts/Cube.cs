@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-    [SerializeField] private Rigidbody _rigidbody;
-    [SerializeField] private float _speed;
+    [SerializeField] private float _xSpeed;
+    [SerializeField] private float _ySpeed;
+    [SerializeField] private float _zSpeed;
 
-    private void Awake()
+    private void Update()
     {
-        _rigidbody.angularVelocity = new Vector3(0, _speed, 0);
+        transform.Rotate(_xSpeed * Time.deltaTime, _ySpeed * Time.deltaTime, _zSpeed * Time.deltaTime);
     }
 }
