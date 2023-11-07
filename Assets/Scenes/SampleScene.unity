@@ -154,9 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b8a2f87e8dd6b4fbc97b59182fe7d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _xSpeed: 0
-  _ySpeed: 1
-  _zSpeed: 0
+  _xSpeed: 1
 --- !u!23 &29245132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -256,8 +254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _xSpeed: 5
-  _ySpeed: 0
-  _zSpeed: 0
 --- !u!114 &501360013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,9 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e08a9033c90d5e4cb9d27dc8c6cfcb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _xSpeed: 0
   _ySpeed: 40
-  _zSpeed: 0
 --- !u!23 &501360015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -669,9 +663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e08a9033c90d5e4cb9d27dc8c6cfcb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _xSpeed: 0
   _ySpeed: 10
-  _zSpeed: 0
 --- !u!23 &1429043630
 MeshRenderer:
   m_ObjectHideFlags: 0
